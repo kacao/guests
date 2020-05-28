@@ -1,0 +1,21 @@
+{
+  "server": {
+    "host": "",
+    "port": "8083",
+    "api_keys": [
+      "r23tr3F23t2"
+    ]
+  },
+  "unifi_controller": {
+    "host": "unifi",
+    "port": "8443",
+    "username": "",
+    "password": "",
+    "site_id": "",
+    "verify_ssl": false
+  },
+  "logging": {
+    "to_file": "debug.log",
+    "level": "DEBUG"
+  }
+}

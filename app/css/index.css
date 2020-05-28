@@ -1,0 +1,28 @@
+html,body {
+  padding: 9;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  aligh-items: stretch;
+}
+
+#drawer {
+  flex-grow: 0;
+  background-color: blue;
+}
+
+#vouchers {
+  display: flex;
+  align-items: stretch;
+  flex-grow: 9;
+}
+
+voucher-list {
+  flex-grow: 1;
+  background-color: gray;
+}
+  
